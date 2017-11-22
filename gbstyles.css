@@ -52,8 +52,9 @@ section {
   border-top: 1px solid #ddd;
 }
 
-input {
-  display: none;
+input[type=text] {
+    background-color: #3CBC8D;
+    color: white;
 }
 
 label {
