@@ -65,11 +65,11 @@ function putMatches(familyArray){
 function clearTable(){
 	var tbl = document.getElementById('famMatches');
 	var tableRows = tbl.getElementsByTagName('td');
-	var rowCount = tableRows.length;
+	var rowCount = (tableRows.length)/2;
 	console.log(rowCount);
-	// for (var x=rowCount-1; x>0; x--) {
- //   		tbl.removeChild(tableRows[x]);
-	// }
+	for (var x=rowCount-1; x>0; x--) {
+   		tbl.removeChild(tableRows[x]);
+	}
 }
 
 
