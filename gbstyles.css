@@ -98,9 +98,15 @@ input:checked + label {
   display: block;
 }
 
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 650px) {
   label {
-    padding: 15px;
+    font-size: 0;
   }
+
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
 }
