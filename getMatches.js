@@ -67,7 +67,7 @@ function clearTable(){
 	var tableRows = tbl.getElementsByTagName('tr');
 	var rowCount = tableRows.length;
 	console.log(rowCount);
-	for (var x=rowCount-2; x>0; x--) {
+	for (var x=rowCount-1; x>0; x--) {
    		tbl.removeChild(tableRows[x]);
 	}
 }
