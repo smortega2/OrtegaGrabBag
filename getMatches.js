@@ -27,7 +27,7 @@ var unmatchedBoys = ['jay', 'matt', 'luke', 'sal', 'kevin', 'juan', 'daniel', 'd
 var unmatchedGirls = ['nina', 'salina', 'angela', 'eliana', 'jenna', 'becky', 'cassy'];
 
 function getList(familyCode){
-	//clear table
+	clearTable();
 	if(familyCode == "GE") putMatches(GE);
 	if(familyCode == "BR") putMatches(BR);
 	if(familyCode == "MU") putMatches(MU);
