@@ -66,20 +66,20 @@ input[type=text] {
 }
 
 .button {
-    background-color: #7A0000; /* Green */
+    background-color: #8E0000; /* Green */
     border: none;
     color: #3CBC8D;
-    padding: 15px 32px;
+    padding: 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
     float: left;
 }
 
 .button:hover {
-    background-color: #660000;
+    background-color: #7A0000;
 }
 
 label {
