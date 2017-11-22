@@ -62,14 +62,27 @@ label:before {
 }
 
 label[for*='1']:before {
-  content: '\f1cb';
+  content: 'imgs/tree.ico';
 }
 
-label[for*='2']:before {
+/*label[for*='2']:before {
   content: '\f17d';
 }
 
+label[for*='3']:before {
+  content: '\f16b';
+}
 
+
+label[for*='4']:before {
+  content: '\f1a9';
+}
+*/
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
 
 input:checked + label {
   color: #555;
