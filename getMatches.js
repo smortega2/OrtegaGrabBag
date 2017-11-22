@@ -7,11 +7,11 @@ var NL = ['eliana'];
 var AR = ['luke', 'sal', 'becky', 'cassy'];
 
 var matchDict = {
-	"luke":"test",
-	"becky": "test",
-	"cassy": "test",
-	"sal":"test",
-	"salina":"test"
+	"luke":"test1",
+	"becky": "test2",
+	"cassy": "test3",
+	"sal":"test4",
+	"salina":"test5"
 };
 var unmatchedBoys = ['jay', 'matt', 'luke', 'sal', 'kevin', 'juan', 'daniel', 'david'];
 var unmatchedGirls = ['nina', 'salina', 'angela', 'eliana', 'jenna', 'becky', 'cassy'];
@@ -39,7 +39,7 @@ function putMatches(familyArray){
 
 		var person = familyArray[i];
 		var match = matchDict[person];
-		
+
 		var p = document.createTextNode(person);
     	col1.appendChild(p);
     	var m = document.createTextNode(match);
