@@ -63,6 +63,7 @@ input[type=text] {
     border-radius: 4px;
     padding: 4px;
     font-size:15px;
+    float:left;
 }
 
 .button {
@@ -75,7 +76,6 @@ input[type=text] {
     display: inline-block;
     font-size: 15px;
     cursor: pointer;
-    float: left;
 }
 
 .button:hover {
