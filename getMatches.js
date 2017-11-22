@@ -23,7 +23,7 @@ function putMatches(familyArray){
 	console.log(familyArray);
     var tbl= document.getElementById("famMatches"); //get table
 
-    document.body.appendChild(btn);
+    
 	for(var person in familyArray){
 		var row = document.createElement("TR");
 		var col1 = document.createElement("TD");
