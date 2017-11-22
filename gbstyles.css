@@ -29,7 +29,7 @@ h1 {
   
 }
 .highlighted{
-  background-color: rgba(135,206,250,.5);
+  background-color: #7A0000;/* rgba(135,206,250,.5);*/
   color: #76A63F;
 }
 
