@@ -14,9 +14,12 @@ body {
   font: 14px/1 'Open Sans', sans-serif;
   color: #555;
   /*background: #eee;*/
-  background-position: left top;
+  
   background-image: url(imgs/hearth.jpg);
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 h1 {
