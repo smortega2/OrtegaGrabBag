@@ -61,11 +61,11 @@ label:before {
   margin-right: 10px;
 }
 
-label[for*='1']:before {
+/*label[for*='1']:before {
   content: 'imgs/tree.ico';
 }
 
-/*label[for*='2']:before {
+label[for*='2']:before {
   content: '\f17d';
 }
 
