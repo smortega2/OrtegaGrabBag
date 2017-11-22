@@ -24,13 +24,14 @@ function putMatches(familyArray){
     var tbl= document.getElementById("famMatches"); //get table
 
     
-	for(var person in familyArray){
+	for(var i in familyArray){
 		var row = document.createElement("TR");
 		var col1 = document.createElement("TD");
 		var col2 = document.createElement("TD");
 
 		var match = "test";//matchDict[person];
 
+		var person = familyArray[i];
 		var p = document.createTextNode(person);
     	col1.appendChild(p);
     	var m = document.createTextNode(match);
