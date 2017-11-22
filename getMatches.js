@@ -66,10 +66,10 @@ function clearTable(){
 	var tbl = document.getElementById('famMatches');
 	var tableRows = tbl.getElementsByTagName('td');
 	var rowCount = tableRows.length;
-
-	for (var x=rowCount-1; x>0; x--) {
-   		tbl.removeChild(tableRows[x]);
-	}
+	console.log(rowCount);
+	// for (var x=rowCount-1; x>0; x--) {
+ //   		tbl.removeChild(tableRows[x]);
+	// }
 }
 
 
