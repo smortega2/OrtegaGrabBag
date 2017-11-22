@@ -7,11 +7,21 @@ var NL = ['eliana'];
 var AR = ['luke', 'sal', 'becky', 'cassy'];
 
 var matchDict = {
-	"luke":"test1",
-	"becky": "test2",
-	"cassy": "test3",
-	"sal":"test4",
-	"salina":"test5"
+	"luke":"",
+	"becky": "",
+	"cassy": "",
+	"sal":"",
+	"jay": "",
+	"matt":"",
+	"nina":"",
+	"salina":"",
+	"angela":"",
+	"eliana":"",
+	"kevin":"",
+	"juan":"",
+	"daniel":"",
+	"david":"",
+	"jenna":""
 };
 var unmatchedBoys = ['jay', 'matt', 'luke', 'sal', 'kevin', 'juan', 'daniel', 'david'];
 var unmatchedGirls = ['nina', 'salina', 'angela', 'eliana', 'jenna', 'becky', 'cassy'];
