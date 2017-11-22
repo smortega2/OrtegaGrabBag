@@ -76,6 +76,7 @@ input[type=text] {
     display: inline-block;
     font-size: 15px;
     cursor: pointer;
+    margin-left:2px;
 }
 
 .button:hover {
