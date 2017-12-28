@@ -2,7 +2,7 @@ var boys = ['jay', 'matt', 'luke', 'sal', 'kevin', 'juan', 'daniel', 'david'];
 var girls = ['nina', 'salina', 'angela', 'eliana', 'jenna', 'becky', 'cassy'];
 var GE = ['kevin', 'juan', 'daniel', 'david', 'jenna'];
 var BR = ['jay', 'matt','nina', 'salina'];
-var MU = ['angel'];
+var MU = ['angela'];
 var NL = ['eliana'];
 var AR = ['luke', 'sal', 'becky', 'cassy'];
 
@@ -71,6 +71,8 @@ function clearTable(){
    		tbl.removeChild(tableRows[x]);
 	}
 }
+
+
 
 
 
